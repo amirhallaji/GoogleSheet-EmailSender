@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      * {
+        font-family: Vazir;
+      }
+
+      #table {
+        width: 50%;
+      }
+
+      hr {
+        border: dashed;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div dir="rtl">
+      <div id="up-part">
+        <h2>سلام <?= name ?> عزیز</h2>
+        <p>
+          این ایمیل جهت اطلاع شما از نمرات نهایی حل‌تمرین درس هوش محاسباتی به شما
+          ارسال گردیده است.
+        </p>
+      </div>
+      <div id="table">
+        <ul>
+          <li>تمرین اول: <?= ex1 ?></li>
+          <li>تمرین دوم: <?= ex2 ?></li>
+          <li>تمرین سوم: <?= ex3 ?></li>
+          <li>تمرین چهارم: <?= ex4 ?></li>
+          <li>پروژه نهایی: <?= project ?></li>
+        </ul>
+
+        <hr />
+
+      </div>
+
+      <div>
+        <p>
+          در صورت اعتراض فقط به این ایمیل ریپلای بزنید.
+        </p>
+      </div>
+  </body>
+</html>
