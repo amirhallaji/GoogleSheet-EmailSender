@@ -10,7 +10,7 @@ To do this, follow this instruction.
 
 2. Copy and Paste the ```script.gs``` file from this repository to ```Code.gs``` in Apps script.
 
-I have explaned some parts of code below.
+I have explaned some parts of the code.
 
 
 
@@ -31,8 +31,27 @@ The ```getRange``` function gets the range of your cells name. For instance, if 
 
 5. Whenever you want to use your google sheet data in yout ```HTML``` file, use the tag below.
 
-```bash
+```html
 <?=  variable_name  ?>
 ```
 
 - Example
+For instance, I want to read HW1 from google sheets. I have assigned ```HW1``` to ```ex1``` variable uing this:
+
+```js
+const ex1 = headers[data][3];
+```
+
+Working with cells is exactly same as working with 2d arrays.
+
+And then, I use this tag in order to use the value of ```ex1``` in my html file.
+
+```html
+<li>تمرین اول: <?= ex1 ?></li>
+```
+
+
+### Other Points
+
+- There is an example in the ```src``` directory in which you can see the templates of ```gs``` and ```html``` templates.
+- If you want to send automated emails, you should first allow google sheets to access your emails and your google drive.
