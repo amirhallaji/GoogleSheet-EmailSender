@@ -50,6 +50,9 @@ And then, I use this tag in order to use the value of ```ex1``` in my html file.
 <li>تمرین اول: <?= ex1 ?></li>
 ```
 
+6. After all these, click on the ```Run``` button to run this script.
+
+<img src='icons/run.png' />
 
 ### Other Points
 
