@@ -12,9 +12,27 @@ To do this, follow this instruction.
 
 I have explaned some parts of code below.
 
+
+
 ```js
 const headers = ws.getRange('A2:H49').getDisplayValues()//get table headers name;
 ```
 The ```getRange``` function gets the range of your cells name. For instance, if you want to read data from the cells selected in the image, you should enter ```C2:G16``` as the parameters in this function.
 
 <img src='icons/range.png' />
+
+
+3. Add your HTML file using the ➕ button at the left side of the page beside the ```Files``` item.
+
+
+<img src='icons/plus.png'/>
+
+4. Copy and paste the ```Template.html``` code inside this repository to a new ```HTML``` file you've created.
+
+5. Whenever you want to use your google sheet data in yout ```HTML``` file, use the tag below.
+
+```bash
+<?=  variable_name  ?>
+```
+
+- Example
