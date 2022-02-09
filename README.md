@@ -15,4 +15,6 @@ I have explaned some parts of code below.
 ```js
 const headers = ws.getRange('A2:H49').getDisplayValues()//get table headers name;
 ```
-The ```getRange``` function gets the range of your cells name. For instance, if you want your code to read data from below image, you should enter ```
+The ```getRange``` function gets the range of your cells name. For instance, if you want to read data from the cells selected in the image, you should enter ```C2:G16``` as the parameters in this function.
+
+<img src='icons/range.png' />
