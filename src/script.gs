@@ -32,7 +32,7 @@ function sendEmail() {
     MailApp.sendEmail({
       to: toEmail,
       // cc: ccs, // In case you want to use CC.
-      subject: "نمرات حل تمرین هوش محاسباتی پاییز ۱۴۰۰",
+      subject: "Subject of your email",
       htmlBody: htmlForEmail
     });
 
